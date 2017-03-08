@@ -1,0 +1,15 @@
+ AuthType Basic
+ AuthName "Protected"
+ AuthUserFile C:\xampp\htdocs\kta15\.htpasswd
+ Require valid-user
+
+
+
+# keelame ära html'i näitamise
+<files "*.html">
+deny from all
+</files>
+
+<files "*.txt">
+deny from all
+</files>
