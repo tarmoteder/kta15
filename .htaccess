@@ -10,6 +10,6 @@
 deny from all
 </files>
 
-<files "*.txt">
-deny from all
-</files>
+#<files "*.txt">
+#deny from all
+#</files>
